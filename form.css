@@ -1,0 +1,129 @@
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 30%;
+    background-color: rgb(189, 194, 199);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+input[type=submit]:hover {
+    background-color: #919191;
+}
+
+.form-container {
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 5%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+ul {
+      padding: 0;
+      margin: 2%;
+      background-color: #f2f2f2;
+      /* border: 3px solid #f2f2f2; */
+      text-align: center;
+      
+    }
+    li, p{
+      font-family: cursive;
+      clear: both;
+      padding: 5px;
+      list-style-type: none;
+      margin: 10px;
+      border-radius: 5px;
+      float: left;
+      font-variant: small-caps;
+      
+    }
+    ul[type=li]:hover{
+        background-color: #884545;
+    }
+    .header-project{
+        font-family: fantasy;
+        letter-spacing: 3px;
+    }
+    .projects_list{
+        margin-left: 35% !important;
+        margin-right: 35% !important;
+    }
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
+.projects_list{
+    margin-left: 10% !important;
+    margin-right: 35% !important;
+}
+    input[type=submit] {
+        width: 25%;
+        font-size: x-small;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        /* margin: 8px 0; */
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    .header-project{
+        font-family: fantasy;
+        letter-spacing: 10px;
+    }
+}
+
+.header {
+    margin: 3%;
+    border: 1px solid rgb(100, 99, 99);
+    box-sizing: border-box;
+    padding: 15px;
+    overflow: hidden;
+}
+.p{
+    margin: 3%;
+    border: 1px solid rgb(100, 99, 99);
+    box-sizing: border-box;
+    padding: 15px;
+    overflow: hidden;
+}
+
+div.img {
+    margin: 5px;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border-radius: 40px;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
